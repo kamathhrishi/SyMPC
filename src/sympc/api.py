@@ -243,6 +243,10 @@ replicated_shared_tensor_attrs = [
         "syft.lib.python.Dict",
     ),
     (
+        "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.bit_extraction",
+        "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor",
+    ),
+    (
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.T",
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor",
     ),
@@ -252,6 +256,10 @@ replicated_shared_tensor_attrs = [
     ),
     (
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.view",
+        "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor",
+    ),
+    (
+        "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.repeat",
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor",
     ),
 ]
