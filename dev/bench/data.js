@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629032223087,
+  "lastUpdate": 1630323846455,
   "repoUrl": "https://github.com/kamathhrishi/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1364,6 +1364,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012197120647901113",
             "extra": "mean: 688.7780060000011 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "Hrishikesh Kamath",
+            "username": "kamathhrishi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c78619593ede191913eb764583029eee729824e",
+          "message": "Merge branch 'OpenMined:main' into main",
+          "timestamp": "2021-08-30T17:11:37+05:30",
+          "tree_id": "4b3725f6fdcc9a335604265717acf7fe7fdb9af8",
+          "url": "https://github.com/kamathhrishi/SyMPC/commit/8c78619593ede191913eb764583029eee729824e"
+        },
+        "date": 1630323845462,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.3047252119548887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007684039755911203",
+            "extra": "mean: 766.4449117999993 msec\nrounds: 5"
           }
         ]
       }
