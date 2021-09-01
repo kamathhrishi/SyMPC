@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630323846455,
+  "lastUpdate": 1630511808998,
   "repoUrl": "https://github.com/kamathhrishi/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1395,6 +1395,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007684039755911203",
             "extra": "mean: 766.4449117999993 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "kamathhrishi@gmail.com",
+            "username": "kamathhrishi"
+          },
+          "committer": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "kamathhrishi@gmail.com",
+            "username": "kamathhrishi"
+          },
+          "distinct": true,
+          "id": "eb7a137e08f438aef640670c1896fc372ba6ffac",
+          "message": "Updated notebook",
+          "timestamp": "2021-09-01T21:24:12+05:30",
+          "tree_id": "088082f45b1bae3de88e672cc87b27a80f6cbae0",
+          "url": "https://github.com/kamathhrishi/SyMPC/commit/eb7a137e08f438aef640670c1896fc372ba6ffac"
+        },
+        "date": 1630511808396,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.2406812653482329,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011671650321036522",
+            "extra": "mean: 806.0087855999996 msec\nrounds: 5"
           }
         ]
       }
