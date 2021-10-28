@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630511808998,
+  "lastUpdate": 1635414843513,
   "repoUrl": "https://github.com/kamathhrishi/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1426,6 +1426,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011671650321036522",
             "extra": "mean: 806.0087855999996 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "danielorihuela@users.noreply.github.com",
+            "name": "danielorihuela",
+            "username": "danielorihuela"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "634396a9d663eda514f66654a96c23ae2ab7d2de",
+          "message": "docs: protocol table (#281)\n\n* docs: operations tables\r\n\r\n* docs: multiplication is public",
+          "timestamp": "2021-09-19T15:54:37+05:30",
+          "tree_id": "c737ae18d0f4b1d6ddc71f9bad0e63321001ae1f",
+          "url": "https://github.com/kamathhrishi/SyMPC/commit/634396a9d663eda514f66654a96c23ae2ab7d2de"
+        },
+        "date": 1635414842357,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.4100206641292,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022724040446852722",
+            "extra": "mean: 709.2094643999985 msec\nrounds: 5"
           }
         ]
       }
